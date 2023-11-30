@@ -6,7 +6,7 @@ import base64
 st.set_page_config(page_title="Trabalho BI", layout='centered')
 
 path_para_logo = "23.png"
-
+print(alt.__version__)
 # Centralizando a logo com HTML
 st.markdown(
     f'<p style="text-align:center;"><img src="data:image/png;base64,{base64.b64encode(open(path_para_logo, "rb").read()).decode()}" alt="Logo" width="200"></p>',
